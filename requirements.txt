@@ -1,0 +1,19 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+Pillow>=9.0.0
+numpy>=1.24.0,<2.0.0
+
+# Data science and ML
+scikit-learn>=1.1.0
+tqdm>=4.64.0
+
+# Web framework
+streamlit>=1.28.0
+
+# Optional dependencies for enhanced functionality
+matplotlib>=3.5.0  # For visualization
+seaborn>=0.11.0   # For advanced plotting
+
+# Note: opencv-python removed due to NumPy 2.x requirement conflict
+# If needed, install manually: pip install opencv-python-headless==4.8.1.78
